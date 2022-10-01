@@ -1,0 +1,29 @@
+@media (max-width: 1199.98px) {
+  .calculator__sum_credit, .calculator__month_value {
+    margin-bottom: 44px;
+  }
+}
+@media (max-width: 767.98px) {
+  .calculator__title {
+    font-size: 34px;
+  }
+  .calculator__result-text {
+    font-size: 14px;
+    line-height: 136%;
+  }
+  .calculator__result-value {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .calculator__sum_credit, .calculator__month_value {
+    margin-bottom: 30px;
+  }
+  .calculator__send_btn {
+    font-size: 22px;
+    line-height: 60px;
+  }
+  .inputs__wrapper {
+    height: 60px;
+    margin-bottom: 16px;
+  }
+}
