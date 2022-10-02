@@ -25,5 +25,26 @@
   .inputs__wrapper {
     height: 60px;
     margin-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &.isFirstContribution {
+      padding: 5px;
+    }
+  }
+  .input-helper {
+    top: 18px;
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .contribution-value {
+    top: 10px;
+  }
+  .input-number, .contribution-value {
+    font-size: 22px;
+  }
+  .inputs__wrapper.isFirstContribution .input-number {
+    height: 48px;
+    width: 67px;
   }
 }
